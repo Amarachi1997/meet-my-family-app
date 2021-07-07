@@ -1,0 +1,22 @@
+Meet My Family App
+I recently left home and started learning a lot about modern javascript. 
+I miss my siblings so much that I started talking about them to myself like I was doing an interview.
+I decided to not be a crazy woman but instead, write about them and better still, 
+let other people get a chance to know more about my family.
+So, I made each child of my parents including myself an object and easily 
+available for anyone to look us up just by typing our postion in the family.
+
+Tools:
+Javascrit ES6
+HTML
+CSS & Materialize framework
+
+A class constructor was used to manually create each child object. 
+This object contained properties fitting for a child. We have the name, age, 
+favourite colour, worst colour and the child's favourite parent as properties for each child.
+I then created a function that is triggered when a child is selected and
+that child object becomes the parameter passed into that function.
+
+Using an input field as the fetcher, I was able to collect the child's position 
+any user was looking for. Then I tested this value (collected from the user) against every childs object usimg a switch statement.
+This way, the right child is rendered to the user when upon ther request.
